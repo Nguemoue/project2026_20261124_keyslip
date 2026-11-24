@@ -1,0 +1,18 @@
+{
+  "name": "nguemoue/keyslip",
+  "description": "The array_merge that deletes your ids. Invoice 1042 becomes index 0, and the spread operator does it too.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "bin": ["keyslip.php"],
+  "autoload": {
+    "psr-4": {
+      "Keyslip\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  }
+}
